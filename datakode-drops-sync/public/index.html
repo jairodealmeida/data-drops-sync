@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <title>Drops - Sync</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+    </head>
+
+    <body>
+      <div id="logo" style="z-Index:10">
+        <img class="unselectable" src="images/logo.svg" style="pointer-events: none;"><br>
+
+      </div>
+
+        <section id="header">
+          <fieldset>
+          <legend>Endereço do Servidor</legend>
+            <form id="example" class="example"  class="form-horizontal">
+
+              <input type="text" placeholder="Endereço IP.." name="ip" id="ip">
+              <input type="text" placeholder="Porta.." style="width:100px" name="port" id="port">
+              <button type="submit" id="ping" ><i class="fa fa-arrow-right"></i></button>
+              <div>
+              <label id="message"></label>
+              </div>
+            </form>
+            <!--form id="ipForm" class="form-horizontal">
+                <div class="form-group">
+                    <label class="col-xs-6 control-label">Endereço IP</label>
+                    <div class="col-xs-6">
+                        <input type="text" class="form-control" id="ip" name="ip" />
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                    <div class="col-xs-6">
+                         <button type="button" id="ping" onclick="checkIP()">Atualizar</button>
+
+                    </div>
+                </div>
+            </form-->
+          </fieldset>
+        </section>
+        <section id="main">
+
+            <fieldset>
+                <legend>Arraste e Solte Aqui</legend>
+                <aside id="upload-box">
+                    <article id="progress">Solte os Arquivos Aqui!</article>
+                </aside>
+            </fieldset>
+
+            <fieldset>
+                <legend>Arquivos Sincronizados</legend>
+                <nav id="list"></nav>
+            </fieldset>
+
+            <!--fieldset>
+                <legend>Pré-Visualizador de Documento</legend>
+                <video id="video"></video>
+                <img id="imageview" width="500px" heigth="500px"></img>
+            </fieldset-->
+
+        </section>
+
+
+
+        <script src="js/lib/binary.js"></script>
+        <script src="js/lib/jquery.js"></script>
+        <script src="js/lib/common.js"></script>
+        <script src="js/lib/video.js"></script>
+        <script src="js/main.js"></script>
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/lib/mime.js"></script>
+<script>
+
+</script>
+    </body>
+</html>

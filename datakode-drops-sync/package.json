@@ -1,0 +1,28 @@
+{
+  "name": "data-drops-sync",
+  "version": "1.0.0",
+  "description": "Solution to sync files beatwen client and server from TCP IP",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package-win": "pkg app.js --options expose-gc --output release-builds/appserver.exe"
+  },
+  "keywords": [
+    "Sync",
+    "NodeJS",
+    "Files",
+    "Socket.IO",
+    "Media",
+    "Listener"
+  ],
+  "author": "jairodealmeida@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "binaryjs": "0.2.1",
+    "browser-sync": "^2.27.9",
+    "copy-dir": "^0.3.0",
+    "express": "3.4.6",
+    "fs-extra": "^5.0.0",
+    "mime": "^2.6.0"
+  }
+}
